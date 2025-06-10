@@ -309,40 +309,71 @@ int main()
     //   * *
     //    *
 
-    int n = 4;
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            cout << "*";
-        }
-        for (int k = 1; k <= 2 * (n - i); k++)
-        {
-            cout << " ";
-        }
-        for (int l = 1; l <= i; l++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
+    //     int row = 4;
+    //     int num = 1;
 
-    for (int i = n; i >= 1; i--)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            cout << "*";
-        }
-        for (int k = 1; k <= 2 * (n - i); k++)
-        {
-            cout << " ";
-        }
-        for (int l = 1; l <= i; l++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
+    //     for (int i = 1; i <= row; i++)
+    //     {
+    //         for (int j = 1; j <= row - i; j++)
+    //         {
+    //             cout << " ";
+    //         }
+    //         for (int k = 1; k <= i; k++)
+    //         {
+    //             if (i % 2 == 1)
+    //             {
+    //                 cout << "* ";
+    //             }
+    //             else
+    //             {
+    //                 cout << num << " ";
+    //                 num++;
+    //             }
+    //         }
+    //         cout << endl;
+    //     }
+    //     return 0;
+    // }
 
-    return 0;
-}
+    //    *
+    //   1 2
+    //  * * *
+    // 3 4 5 6
+
+    //     int n = 4;
+    //     for (int i = 1; i <= n; i++)
+    //     {
+    //         for (int j = 1; j <= i; j++)
+    //         {
+    //             cout << "*";
+    //         }
+    //         for (int k = 1; k <= 2 * (n - i); k++)
+    //         {
+    //             cout << " ";
+    //         }
+    //         for (int l = 1; l <= i; l++)
+    //         {
+    //             cout << "*";
+    //         }
+    //         cout << endl;
+    //     }
+
+    //     for (int i = n; i >= 1; i--)
+    //     {
+    //         for (int j = 1; j <= i; j++)
+    //         {
+    //             cout << "*";
+    //         }
+    //         for (int k = 1; k <= 2 * (n - i); k++)
+    //         {
+    //             cout << " ";
+    //         }
+    //         for (int l = 1; l <= i; l++)
+    //         {
+    //             cout << "*";
+    //         }
+    //         cout << endl;
+    //     }
+
+    //     return 0;
+    // }
