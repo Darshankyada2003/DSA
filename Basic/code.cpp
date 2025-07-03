@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main()
@@ -38,10 +39,10 @@ int main()
     cout << "b is " << b << endl; // 10
 
     int c = 10;
-    int d = ++c;
+    // int d = ++c;
     // first ++c then c is 11 and d is c then d is 11
     cout << "c is " << c << endl; // 11
-    cout << "d is " << d << endl; // 11
+    // cout << "d is " << d << endl; // 11
 
     //  Example calculator
     // int abc;
@@ -120,5 +121,20 @@ int main()
         factorial *= i;
     }
     cout << factorial << endl;
+
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    for (auto it = vec.rbegin(); it != vec.rend(); it++)
+    {
+        cout << *(it) << " ";
+    }
+    
+    vector<int> d = {1, 2, 3, 4, 5};
+
+    for (int val : d)
+    {
+        cout << val << " " << endl;
+    }
+    cout << endl;
     return 0;
 }
